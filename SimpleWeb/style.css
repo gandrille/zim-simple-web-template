@@ -231,3 +231,20 @@ div.zim-object {
   border-width:1px;
 }
 
+@media print {
+  .wrapper {
+    display: block;
+  }
+  #navigation {
+    display: none;
+  }
+  #footblock {
+    display: none;
+  }
+  #content {
+    padding: 0;
+  }
+  #credits {
+    display: none;
+  }
+}
