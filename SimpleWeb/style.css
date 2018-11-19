@@ -233,6 +233,9 @@ div.zim-object {
 }
 
 @media print {
+  body, html {
+    font-size: 13px;
+  }
   .wrapper {
     display: block;
   }
