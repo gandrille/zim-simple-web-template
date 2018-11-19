@@ -214,6 +214,7 @@ tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th {
 hr.footrule {
   width: 20%;
   margin-left: 0;
+  margin-top: 2em;
   color: #B9C3CF;
 }
 
