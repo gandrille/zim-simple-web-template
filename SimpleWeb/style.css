@@ -165,6 +165,7 @@ p {
   font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
   border: 1px dotted #555;
   padding: 10px;
+  line-height: 1.3em;
 }
 
 #credits {
