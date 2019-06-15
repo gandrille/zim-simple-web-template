@@ -152,7 +152,7 @@ p {
 
 #content tt {
   color: #2e3436;
-  background: white;
+  background: #eee;
   border-radius: 5px;
   font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
   padding: 0 0.5em;
