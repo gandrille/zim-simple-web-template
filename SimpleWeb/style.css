@@ -66,6 +66,10 @@ display: grid;
   padding-right: 10px;
 }
 
+#toc ul li {
+  margin-top: 0.2em;
+}
+
 #navigation ul {
   margin-top:0;
   margin-bottom:0;
