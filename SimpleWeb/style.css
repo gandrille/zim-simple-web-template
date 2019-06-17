@@ -52,7 +52,7 @@ display: grid;
 #toc {
   background-color:#DEE3E9;
   font-size: 0.8em;
-  line-height: 1em;
+  line-height: 1.3em;
   display: inline;
   float: right;
   border-radius: 5px;
@@ -68,6 +68,10 @@ display: grid;
 
 #toc ul li {
   margin-top: 0.2em;
+  max-width: 250px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 #navigation ul {
@@ -154,19 +158,18 @@ p {
   background-color: yellow;
 }
 
-#content tt {
+#content tt, #content pre {
   color: #2e3436;
   background: #eee;
   border-radius: 5px;
   font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+}
+
+#content tt {
   padding: 0 0.5em;
 }
 
 #content pre {
-  color: #2e3436;
-  background: #eee;
-  border-radius: 5px;
-  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
   border: 1px dotted #555;
   padding: 10px;
   line-height: 1.3em;
